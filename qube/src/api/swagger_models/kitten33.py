@@ -10,7 +10,7 @@ class VersionModel(Schema):
     }
 
 
-class HelloModel(Schema):
+class kitten33Model(Schema):
     type = 'object'
     properties = {
         'id': {
@@ -44,7 +44,7 @@ class HelloModel(Schema):
     required = ['name']
 
 
-class HelloModelPost(Schema):
+class kitten33ModelPost(Schema):
     type = 'object'
     properties = {
         'name': {
@@ -57,7 +57,7 @@ class HelloModelPost(Schema):
     required = ['name']
 
 
-class HelloModelPut(Schema):
+class kitten33ModelPut(Schema):
     type = 'object'
     properties = {
         'name': {
@@ -69,7 +69,7 @@ class HelloModelPut(Schema):
     }
 
 
-class HelloModelPostResponse(Schema):
+class kitten33ModelPostResponse(Schema):
     type = 'object'
     properties = {
         'id': {
@@ -78,7 +78,7 @@ class HelloModelPostResponse(Schema):
     }
 
 
-class HelloErrorModel(Schema):
+class kitten33ErrorModel(Schema):
     type = 'object'
     properties = {
         'error_code': {
